@@ -241,8 +241,8 @@
           const coursesForDay = schedule.filter(course => course.day === day);
           if (coursesForDay.length > 0) {
             let dayCardHtml = `
-              <div class="bg-fuchsia-200 rounded-xl p-4 shadow-md">
-                <h3 class="text-xl font-bold mb-3">${day}</h3>
+              <div class="bg-fuchsia-50 rounded-xl p-4 shadow-md">
+                <h3 class="text-xl font-bold mb-3 text-fuchsia-700">${day}</h3>
                 <div class="space-y-3">
             `;
             coursesForDay.forEach(course => {
